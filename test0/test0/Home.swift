@@ -7,10 +7,13 @@
 
 import Foundation
 import SwiftUI
+import SwiftUIX
 
 struct homeView : View {
     var body: some View {
         ZStack {
+            VisualEffectBlurView(blurStyle: .systemUltraThinMaterial)
+                .ignoresSafeArea()
             Text("Welcome home, would you like to fly with me?")
                 .font(.system(size: 27, weight: .light, design: .serif))
                 .italic()
@@ -21,7 +24,7 @@ struct homeView : View {
         }
         .navigationTitle("Home")
         .toolbar {
-            ToolbarItem(placement: .navigation) {
+            ToolbarItem(placement: .navigationBarTrailing) {
                 Button(action: {}) {
                     Image(systemName: "person.crop.circle")
                 }

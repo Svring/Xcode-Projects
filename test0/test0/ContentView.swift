@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
         NavigationView {
             List {
                 NavigationLink(destination: homeView()) {
@@ -21,9 +22,20 @@ struct ContentView: View {
                     Label("Chip", systemImage: "command.circle")
                 }
                 NavigationLink(destination: cardView()) {
-                    Label("Card", systemImage: "creditcard")
+                    let trans = Transaction(animation: .spring())
+                    withTransaction(trans) {
+                        Label("Card", systemImage: "creditcard")
+                    }
+                }
+                NavigationLink(destination: LottieView(name: "Lottie Lego", loopMode: .loop)) {
+                    Label("Lottie", systemImage: "lasso.and.sparkles")
+                }
+                NavigationLink(destination: GridView()) {
+                    Label("Grid", systemImage: "doc")
                 }
             }
+            .navigationTitle("Today")
+            .navigationBarItems(leading: Image(systemName: "person.crop.circle"))
 
             homeView()
         }

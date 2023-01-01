@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E82757FD29596E730039FDEE /* Lora-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82757F029596E730039FDEE /* Lora-Italic-VariableFont_wght.ttf */; };
-		E82757FE29596E730039FDEE /* Lora-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82757F129596E730039FDEE /* Lora-VariableFont_wght.ttf */; };
-		E82757FF29596E730039FDEE /* Lora-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82757F329596E730039FDEE /* Lora-Italic.ttf */; };
-		E827580029596E730039FDEE /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82757F429596E730039FDEE /* Lora-Bold.ttf */; };
-		E827580129596E730039FDEE /* Lora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82757F529596E730039FDEE /* Lora-SemiBold.ttf */; };
-		E827580229596E730039FDEE /* Lora-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82757F629596E730039FDEE /* Lora-SemiBoldItalic.ttf */; };
-		E827580329596E730039FDEE /* Lora-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82757F729596E730039FDEE /* Lora-MediumItalic.ttf */; };
-		E827580429596E730039FDEE /* Lora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82757F829596E730039FDEE /* Lora-Medium.ttf */; };
-		E827580529596E730039FDEE /* Lora-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82757F929596E730039FDEE /* Lora-BoldItalic.ttf */; };
-		E827580629596E730039FDEE /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82757FA29596E730039FDEE /* Lora-Regular.ttf */; };
-		E827580729596E730039FDEE /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = E82757FB29596E730039FDEE /* OFL.txt */; };
-		E827580829596E730039FDEE /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = E82757FC29596E730039FDEE /* README.txt */; };
 		E827580A295985510039FDEE /* Chip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8275809295985510039FDEE /* Chip.swift */; };
 		E827580C29598D740039FDEE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827580B29598D740039FDEE /* Card.swift */; };
+		E83F21B0295DA76D000E58F5 /* alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83F21AF295DA76D000E58F5 /* alpha.swift */; };
+		E83F21B2295DB84F000E58F5 /* MEGmainview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83F21B1295DB84F000E58F5 /* MEGmainview.swift */; };
+		E83F21B4295DB85F000E58F5 /* MEGplayview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83F21B3295DB85F000E58F5 /* MEGplayview.swift */; };
+		E83F21B7295DC726000E58F5 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = E83F21B6295DC726000E58F5 /* SwiftUIX */; };
+		E84B93CD295FE589004F27AD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E84B93CC295FE589004F27AD /* Lottie */; };
+		E84B93D2296013BC004F27AD /* Aniki Hamster.json in Resources */ = {isa = PBXBuildFile; fileRef = E84B93CF296013BC004F27AD /* Aniki Hamster.json */; };
+		E84B93D3296013BC004F27AD /* Lottie Lego.json in Resources */ = {isa = PBXBuildFile; fileRef = E84B93D0296013BC004F27AD /* Lottie Lego.json */; };
+		E84B93D4296013BC004F27AD /* Polite Chicky.json in Resources */ = {isa = PBXBuildFile; fileRef = E84B93D1296013BC004F27AD /* Polite Chicky.json */; };
+		E84B93D6296013DA004F27AD /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93D5296013DA004F27AD /* LottieView.swift */; };
+		E84B93D829601EE6004F27AD /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93D729601EE6004F27AD /* GridView.swift */; };
+		E84B93DA29617102004F27AD /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93D929617102004F27AD /* ColorView.swift */; };
 		E85A279A2956B2BA00CC87F2 /* test0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A27992956B2BA00CC87F2 /* test0App.swift */; };
 		E85A279C2956B2BA00CC87F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A279B2956B2BA00CC87F2 /* ContentView.swift */; };
 		E85A279E2956B2BB00CC87F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85A279D2956B2BB00CC87F2 /* Assets.xcassets */; };
@@ -30,20 +29,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E82757F029596E730039FDEE /* Lora-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		E82757F129596E730039FDEE /* Lora-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		E82757F329596E730039FDEE /* Lora-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Italic.ttf"; sourceTree = "<group>"; };
-		E82757F429596E730039FDEE /* Lora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Bold.ttf"; sourceTree = "<group>"; };
-		E82757F529596E730039FDEE /* Lora-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-SemiBold.ttf"; sourceTree = "<group>"; };
-		E82757F629596E730039FDEE /* Lora-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		E82757F729596E730039FDEE /* Lora-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-MediumItalic.ttf"; sourceTree = "<group>"; };
-		E82757F829596E730039FDEE /* Lora-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Medium.ttf"; sourceTree = "<group>"; };
-		E82757F929596E730039FDEE /* Lora-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-BoldItalic.ttf"; sourceTree = "<group>"; };
-		E82757FA29596E730039FDEE /* Lora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Regular.ttf"; sourceTree = "<group>"; };
-		E82757FB29596E730039FDEE /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
-		E82757FC29596E730039FDEE /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		E8275809295985510039FDEE /* Chip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
 		E827580B29598D740039FDEE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E83F21AF295DA76D000E58F5 /* alpha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alpha.swift; sourceTree = "<group>"; };
+		E83F21B1295DB84F000E58F5 /* MEGmainview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEGmainview.swift; sourceTree = "<group>"; };
+		E83F21B3295DB85F000E58F5 /* MEGplayview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEGplayview.swift; sourceTree = "<group>"; };
+		E84B93CF296013BC004F27AD /* Aniki Hamster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Aniki Hamster.json"; sourceTree = "<group>"; };
+		E84B93D0296013BC004F27AD /* Lottie Lego.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Lottie Lego.json"; sourceTree = "<group>"; };
+		E84B93D1296013BC004F27AD /* Polite Chicky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Polite Chicky.json"; sourceTree = "<group>"; };
+		E84B93D5296013DA004F27AD /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		E84B93D729601EE6004F27AD /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		E84B93D929617102004F27AD /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		E85A27962956B2BA00CC87F2 /* test0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A27992956B2BA00CC87F2 /* test0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test0App.swift; sourceTree = "<group>"; };
 		E85A279B2956B2BA00CC87F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,42 +54,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E83F21B7295DC726000E58F5 /* SwiftUIX in Frameworks */,
+				E84B93CD295FE589004F27AD /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E82757EF29596E730039FDEE /* Lora */ = {
+		E84B93CE296013BC004F27AD /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				E82757F029596E730039FDEE /* Lora-Italic-VariableFont_wght.ttf */,
-				E82757F129596E730039FDEE /* Lora-VariableFont_wght.ttf */,
-				E82757F229596E730039FDEE /* static */,
-				E82757FB29596E730039FDEE /* OFL.txt */,
-				E82757FC29596E730039FDEE /* README.txt */,
+				E84B93CF296013BC004F27AD /* Aniki Hamster.json */,
+				E84B93D0296013BC004F27AD /* Lottie Lego.json */,
+				E84B93D1296013BC004F27AD /* Polite Chicky.json */,
 			);
-			path = Lora;
-			sourceTree = "<group>";
-		};
-		E82757F229596E730039FDEE /* static */ = {
-			isa = PBXGroup;
-			children = (
-				E82757F329596E730039FDEE /* Lora-Italic.ttf */,
-				E82757F429596E730039FDEE /* Lora-Bold.ttf */,
-				E82757F529596E730039FDEE /* Lora-SemiBold.ttf */,
-				E82757F629596E730039FDEE /* Lora-SemiBoldItalic.ttf */,
-				E82757F729596E730039FDEE /* Lora-MediumItalic.ttf */,
-				E82757F829596E730039FDEE /* Lora-Medium.ttf */,
-				E82757F929596E730039FDEE /* Lora-BoldItalic.ttf */,
-				E82757FA29596E730039FDEE /* Lora-Regular.ttf */,
-			);
-			path = static;
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 		E85A278D2956B2BA00CC87F2 = {
 			isa = PBXGroup;
 			children = (
+				E84B93CE296013BC004F27AD /* Lottie */,
 				E85A27982956B2BA00CC87F2 /* test0 */,
 				E85A27972956B2BA00CC87F2 /* Products */,
 			);
@@ -110,15 +92,19 @@
 		E85A27982956B2BA00CC87F2 /* test0 */ = {
 			isa = PBXGroup;
 			children = (
+				E85A279F2956B2BB00CC87F2 /* Preview Content */,
 				E85A27992956B2BA00CC87F2 /* test0App.swift */,
 				E85A279B2956B2BA00CC87F2 /* ContentView.swift */,
-				E82757EF29596E730039FDEE /* Lora */,
-				E85A279D2956B2BB00CC87F2 /* Assets.xcassets */,
-				E85A279F2956B2BB00CC87F2 /* Preview Content */,
 				E85A27A72956DCBC00CC87F2 /* Book.swift */,
 				E85A27A92956DEBE00CC87F2 /* Home.swift */,
 				E8275809295985510039FDEE /* Chip.swift */,
 				E827580B29598D740039FDEE /* Card.swift */,
+				E83F21AF295DA76D000E58F5 /* alpha.swift */,
+				E83F21B1295DB84F000E58F5 /* MEGmainview.swift */,
+				E83F21B3295DB85F000E58F5 /* MEGplayview.swift */,
+				E84B93D5296013DA004F27AD /* LottieView.swift */,
+				E84B93D729601EE6004F27AD /* GridView.swift */,
+				E84B93D929617102004F27AD /* ColorView.swift */,
 			);
 			path = test0;
 			sourceTree = "<group>";
@@ -126,6 +112,7 @@
 		E85A279F2956B2BB00CC87F2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				E85A279D2956B2BB00CC87F2 /* Assets.xcassets */,
 				E85A27A02956B2BB00CC87F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -147,6 +134,10 @@
 			dependencies = (
 			);
 			name = test0;
+			packageProductDependencies = (
+				E83F21B6295DC726000E58F5 /* SwiftUIX */,
+				E84B93CC295FE589004F27AD /* Lottie */,
+			);
 			productName = test0;
 			productReference = E85A27962956B2BA00CC87F2 /* test0.app */;
 			productType = "com.apple.product-type.application";
@@ -175,6 +166,10 @@
 				Base,
 			);
 			mainGroup = E85A278D2956B2BA00CC87F2;
+			packageReferences = (
+				E83F21B5295DC726000E58F5 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+				E84B93CB295FE589004F27AD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = E85A27972956B2BA00CC87F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -189,20 +184,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E827580129596E730039FDEE /* Lora-SemiBold.ttf in Resources */,
-				E827580629596E730039FDEE /* Lora-Regular.ttf in Resources */,
+				E84B93D3296013BC004F27AD /* Lottie Lego.json in Resources */,
+				E84B93D2296013BC004F27AD /* Aniki Hamster.json in Resources */,
+				E84B93D4296013BC004F27AD /* Polite Chicky.json in Resources */,
 				E85A27A12956B2BB00CC87F2 /* Preview Assets.xcassets in Resources */,
-				E82757FF29596E730039FDEE /* Lora-Italic.ttf in Resources */,
-				E827580229596E730039FDEE /* Lora-SemiBoldItalic.ttf in Resources */,
-				E82757FD29596E730039FDEE /* Lora-Italic-VariableFont_wght.ttf in Resources */,
-				E827580429596E730039FDEE /* Lora-Medium.ttf in Resources */,
-				E827580029596E730039FDEE /* Lora-Bold.ttf in Resources */,
-				E827580729596E730039FDEE /* OFL.txt in Resources */,
 				E85A279E2956B2BB00CC87F2 /* Assets.xcassets in Resources */,
-				E827580329596E730039FDEE /* Lora-MediumItalic.ttf in Resources */,
-				E82757FE29596E730039FDEE /* Lora-VariableFont_wght.ttf in Resources */,
-				E827580829596E730039FDEE /* README.txt in Resources */,
-				E827580529596E730039FDEE /* Lora-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,10 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84B93DA29617102004F27AD /* ColorView.swift in Sources */,
+				E83F21B4295DB85F000E58F5 /* MEGplayview.swift in Sources */,
+				E83F21B0295DA76D000E58F5 /* alpha.swift in Sources */,
 				E85A279C2956B2BA00CC87F2 /* ContentView.swift in Sources */,
+				E84B93D829601EE6004F27AD /* GridView.swift in Sources */,
 				E827580C29598D740039FDEE /* Card.swift in Sources */,
 				E85A279A2956B2BA00CC87F2 /* test0App.swift in Sources */,
 				E827580A295985510039FDEE /* Chip.swift in Sources */,
+				E83F21B2295DB84F000E58F5 /* MEGmainview.swift in Sources */,
+				E84B93D6296013DA004F27AD /* LottieView.swift in Sources */,
 				E85A27AA2956DEBE00CC87F2 /* Home.swift in Sources */,
 				E85A27A82956DCBC00CC87F2 /* Book.swift in Sources */,
 			);
@@ -417,6 +409,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E83F21B5295DC726000E58F5 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+		E84B93CB295FE589004F27AD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E83F21B6295DC726000E58F5 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E83F21B5295DC726000E58F5 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		E84B93CC295FE589004F27AD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E84B93CB295FE589004F27AD /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E85A278E2956B2BA00CC87F2 /* Project object */;
 }
