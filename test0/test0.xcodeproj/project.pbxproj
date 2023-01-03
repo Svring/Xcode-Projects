@@ -20,6 +20,15 @@
 		E84B93D6296013DA004F27AD /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93D5296013DA004F27AD /* LottieView.swift */; };
 		E84B93D829601EE6004F27AD /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93D729601EE6004F27AD /* GridView.swift */; };
 		E84B93DA29617102004F27AD /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93D929617102004F27AD /* ColorView.swift */; };
+		E84B93DC2962F45A004F27AD /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93DB2962F45A004F27AD /* DateView.swift */; };
+		E84B93DE2962F7A4004F27AD /* HoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93DD2962F7A4004F27AD /* HoverView.swift */; };
+		E84B93E029640909004F27AD /* BindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93DF29640909004F27AD /* BindView.swift */; };
+		E84B93E229640C8D004F27AD /* FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93E129640C8D004F27AD /* FullView.swift */; };
+		E84B93E4296414BD004F27AD /* RedactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93E3296414BD004F27AD /* RedactView.swift */; };
+		E84B93E629641B5D004F27AD /* HScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93E529641B5D004F27AD /* HScrollView.swift */; };
+		E84B93E8296421ED004F27AD /* TabShiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93E7296421ED004F27AD /* TabShiftView.swift */; };
+		E84B93EB296431C4004F27AD /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E84B93EA296431C4004F27AD /* SDWebImageSwiftUI */; };
+		E84B93ED296433DF004F27AD /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93EC296433DF004F27AD /* URLImage.swift */; };
 		E85A279A2956B2BA00CC87F2 /* test0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A27992956B2BA00CC87F2 /* test0App.swift */; };
 		E85A279C2956B2BA00CC87F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A279B2956B2BA00CC87F2 /* ContentView.swift */; };
 		E85A279E2956B2BB00CC87F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85A279D2956B2BB00CC87F2 /* Assets.xcassets */; };
@@ -40,6 +49,14 @@
 		E84B93D5296013DA004F27AD /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		E84B93D729601EE6004F27AD /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		E84B93D929617102004F27AD /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		E84B93DB2962F45A004F27AD /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		E84B93DD2962F7A4004F27AD /* HoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverView.swift; sourceTree = "<group>"; };
+		E84B93DF29640909004F27AD /* BindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindView.swift; sourceTree = "<group>"; };
+		E84B93E129640C8D004F27AD /* FullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullView.swift; sourceTree = "<group>"; };
+		E84B93E3296414BD004F27AD /* RedactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactView.swift; sourceTree = "<group>"; };
+		E84B93E529641B5D004F27AD /* HScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollView.swift; sourceTree = "<group>"; };
+		E84B93E7296421ED004F27AD /* TabShiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShiftView.swift; sourceTree = "<group>"; };
+		E84B93EC296433DF004F27AD /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 		E85A27962956B2BA00CC87F2 /* test0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A27992956B2BA00CC87F2 /* test0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test0App.swift; sourceTree = "<group>"; };
 		E85A279B2956B2BA00CC87F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84B93EB296431C4004F27AD /* SDWebImageSwiftUI in Frameworks */,
 				E83F21B7295DC726000E58F5 /* SwiftUIX in Frameworks */,
 				E84B93CD295FE589004F27AD /* Lottie in Frameworks */,
 			);
@@ -105,6 +123,14 @@
 				E84B93D5296013DA004F27AD /* LottieView.swift */,
 				E84B93D729601EE6004F27AD /* GridView.swift */,
 				E84B93D929617102004F27AD /* ColorView.swift */,
+				E84B93DB2962F45A004F27AD /* DateView.swift */,
+				E84B93DD2962F7A4004F27AD /* HoverView.swift */,
+				E84B93DF29640909004F27AD /* BindView.swift */,
+				E84B93E129640C8D004F27AD /* FullView.swift */,
+				E84B93E3296414BD004F27AD /* RedactView.swift */,
+				E84B93E529641B5D004F27AD /* HScrollView.swift */,
+				E84B93E7296421ED004F27AD /* TabShiftView.swift */,
+				E84B93EC296433DF004F27AD /* URLImage.swift */,
 			);
 			path = test0;
 			sourceTree = "<group>";
@@ -137,6 +163,7 @@
 			packageProductDependencies = (
 				E83F21B6295DC726000E58F5 /* SwiftUIX */,
 				E84B93CC295FE589004F27AD /* Lottie */,
+				E84B93EA296431C4004F27AD /* SDWebImageSwiftUI */,
 			);
 			productName = test0;
 			productReference = E85A27962956B2BA00CC87F2 /* test0.app */;
@@ -169,6 +196,7 @@
 			packageReferences = (
 				E83F21B5295DC726000E58F5 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
 				E84B93CB295FE589004F27AD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				E84B93E9296431C4004F27AD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = E85A27972956B2BA00CC87F2 /* Products */;
 			projectDirPath = "";
@@ -200,12 +228,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E84B93DA29617102004F27AD /* ColorView.swift in Sources */,
+				E84B93DC2962F45A004F27AD /* DateView.swift in Sources */,
 				E83F21B4295DB85F000E58F5 /* MEGplayview.swift in Sources */,
+				E84B93ED296433DF004F27AD /* URLImage.swift in Sources */,
+				E84B93DE2962F7A4004F27AD /* HoverView.swift in Sources */,
 				E83F21B0295DA76D000E58F5 /* alpha.swift in Sources */,
 				E85A279C2956B2BA00CC87F2 /* ContentView.swift in Sources */,
+				E84B93E029640909004F27AD /* BindView.swift in Sources */,
+				E84B93E229640C8D004F27AD /* FullView.swift in Sources */,
 				E84B93D829601EE6004F27AD /* GridView.swift in Sources */,
+				E84B93E4296414BD004F27AD /* RedactView.swift in Sources */,
+				E84B93E8296421ED004F27AD /* TabShiftView.swift in Sources */,
 				E827580C29598D740039FDEE /* Card.swift in Sources */,
 				E85A279A2956B2BA00CC87F2 /* test0App.swift in Sources */,
+				E84B93E629641B5D004F27AD /* HScrollView.swift in Sources */,
 				E827580A295985510039FDEE /* Chip.swift in Sources */,
 				E83F21B2295DB84F000E58F5 /* MEGmainview.swift in Sources */,
 				E84B93D6296013DA004F27AD /* LottieView.swift in Sources */,
@@ -427,6 +463,14 @@
 				minimumVersion = 4.0.0;
 			};
 		};
+		E84B93E9296431C4004F27AD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -439,6 +483,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E84B93CB295FE589004F27AD /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		E84B93EA296431C4004F27AD /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E84B93E9296431C4004F27AD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

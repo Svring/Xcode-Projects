@@ -33,6 +33,12 @@ struct ContentView: View {
                 NavigationLink(destination: GridView()) {
                     Label("Grid", systemImage: "doc")
                 }
+                NavigationLink(destination: HoverView()) {
+                    Label("Hover", systemImage: "cursorarrow.click")
+                }
+                NavigationLink(destination: FullView()) {
+                    Label("Full", systemImage: "filemenu.and.cursorarrow")
+                }
             }
             .navigationTitle("Today")
             .navigationBarItems(leading: Image(systemName: "person.crop.circle"))
