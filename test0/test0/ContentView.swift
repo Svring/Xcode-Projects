@@ -39,6 +39,9 @@ struct ContentView: View {
                 NavigationLink(destination: FullView()) {
                     Label("Full", systemImage: "filemenu.and.cursorarrow")
                 }
+                NavigationLink(destination: StatusColorView()) {
+                    Label("StatusColor", systemImage: "iphone")
+                }
             }
             .navigationTitle("Today")
             .navigationBarItems(leading: Image(systemName: "person.crop.circle"))

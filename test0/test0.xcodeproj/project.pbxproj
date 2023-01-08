@@ -29,13 +29,55 @@
 		E84B93E8296421ED004F27AD /* TabShiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93E7296421ED004F27AD /* TabShiftView.swift */; };
 		E84B93EB296431C4004F27AD /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E84B93EA296431C4004F27AD /* SDWebImageSwiftUI */; };
 		E84B93ED296433DF004F27AD /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93EC296433DF004F27AD /* URLImage.swift */; };
+		E84B93EF296581FD004F27AD /* AVplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93EE296581FD004F27AD /* AVplayer.swift */; };
+		E84B93F229658536004F27AD /* SwiftUITrackableScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = E84B93F129658536004F27AD /* SwiftUITrackableScrollView */; };
+		E84B93F429658549004F27AD /* TrackScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B93F329658549004F27AD /* TrackScrollView.swift */; };
 		E85A279A2956B2BA00CC87F2 /* test0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A27992956B2BA00CC87F2 /* test0App.swift */; };
 		E85A279C2956B2BA00CC87F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A279B2956B2BA00CC87F2 /* ContentView.swift */; };
 		E85A279E2956B2BB00CC87F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85A279D2956B2BB00CC87F2 /* Assets.xcassets */; };
 		E85A27A12956B2BB00CC87F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85A27A02956B2BB00CC87F2 /* Preview Assets.xcassets */; };
 		E85A27A82956DCBC00CC87F2 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A27A72956DCBC00CC87F2 /* Book.swift */; };
 		E85A27AA2956DEBE00CC87F2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A27A92956DEBE00CC87F2 /* Home.swift */; };
+		E89839C32968539400CA0645 /* TabTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839C22968539400CA0645 /* TabTopView.swift */; };
+		E89839C52968651C00CA0645 /* TabRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839C42968651C00CA0645 /* TabRootView.swift */; };
+		E89839C7296915A800CA0645 /* StatusColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839C6296915A800CA0645 /* StatusColorView.swift */; };
+		E89839CF296927CF00CA0645 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89839CE296927CF00CA0645 /* WidgetKit.framework */; };
+		E89839D1296927CF00CA0645 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89839D0296927CF00CA0645 /* SwiftUI.framework */; };
+		E89839D4296927CF00CA0645 /* DeishWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839D3296927CF00CA0645 /* DeishWidgetBundle.swift */; };
+		E89839D6296927CF00CA0645 /* DeishWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839D5296927CF00CA0645 /* DeishWidgetLiveActivity.swift */; };
+		E89839D8296927CF00CA0645 /* DeishWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839D7296927CF00CA0645 /* DeishWidget.swift */; };
+		E89839DB296927CF00CA0645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89839DA296927CF00CA0645 /* Assets.xcassets */; };
+		E89839DD296927CF00CA0645 /* DeishWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E89839D9296927CF00CA0645 /* DeishWidget.intentdefinition */; };
+		E89839DE296927CF00CA0645 /* DeishWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E89839D9296927CF00CA0645 /* DeishWidget.intentdefinition */; };
+		E89839E1296927CF00CA0645 /* DeishWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E89839CC296927CF00CA0645 /* DeishWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E89839E729699ACE00CA0645 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839E629699ACE00CA0645 /* PickerView.swift */; };
+		E89839E92969A01400CA0645 /* SFSafariViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839E82969A01400CA0645 /* SFSafariViewWrapper.swift */; };
+		E89839EB2969A3DA00CA0645 /* AttributeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839EA2969A3DA00CA0645 /* AttributeView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E89839DF296927CF00CA0645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E85A278E2956B2BA00CC87F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89839CB296927CF00CA0645;
+			remoteInfo = DeishWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E89839E2296927CF00CA0645 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E89839E1296927CF00CA0645 /* DeishWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E8275809295985510039FDEE /* Chip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
@@ -57,6 +99,8 @@
 		E84B93E529641B5D004F27AD /* HScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollView.swift; sourceTree = "<group>"; };
 		E84B93E7296421ED004F27AD /* TabShiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShiftView.swift; sourceTree = "<group>"; };
 		E84B93EC296433DF004F27AD /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		E84B93EE296581FD004F27AD /* AVplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVplayer.swift; sourceTree = "<group>"; };
+		E84B93F329658549004F27AD /* TrackScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackScrollView.swift; sourceTree = "<group>"; };
 		E85A27962956B2BA00CC87F2 /* test0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A27992956B2BA00CC87F2 /* test0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test0App.swift; sourceTree = "<group>"; };
 		E85A279B2956B2BA00CC87F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +108,21 @@
 		E85A27A02956B2BB00CC87F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E85A27A72956DCBC00CC87F2 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		E85A27A92956DEBE00CC87F2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E89839C22968539400CA0645 /* TabTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTopView.swift; sourceTree = "<group>"; };
+		E89839C42968651C00CA0645 /* TabRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRootView.swift; sourceTree = "<group>"; };
+		E89839C6296915A800CA0645 /* StatusColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusColorView.swift; sourceTree = "<group>"; };
+		E89839CC296927CF00CA0645 /* DeishWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeishWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89839CE296927CF00CA0645 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E89839D0296927CF00CA0645 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E89839D3296927CF00CA0645 /* DeishWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeishWidgetBundle.swift; sourceTree = "<group>"; };
+		E89839D5296927CF00CA0645 /* DeishWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeishWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		E89839D7296927CF00CA0645 /* DeishWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeishWidget.swift; sourceTree = "<group>"; };
+		E89839D9296927CF00CA0645 /* DeishWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = DeishWidget.intentdefinition; sourceTree = "<group>"; };
+		E89839DA296927CF00CA0645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E89839DC296927CF00CA0645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89839E629699ACE00CA0645 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		E89839E82969A01400CA0645 /* SFSafariViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewWrapper.swift; sourceTree = "<group>"; };
+		E89839EA2969A3DA00CA0645 /* AttributeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +130,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84B93F229658536004F27AD /* SwiftUITrackableScrollView in Frameworks */,
 				E84B93EB296431C4004F27AD /* SDWebImageSwiftUI in Frameworks */,
 				E83F21B7295DC726000E58F5 /* SwiftUIX in Frameworks */,
 				E84B93CD295FE589004F27AD /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89839C9296927CF00CA0645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89839D1296927CF00CA0645 /* SwiftUI.framework in Frameworks */,
+				E89839CF296927CF00CA0645 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +164,8 @@
 			children = (
 				E84B93CE296013BC004F27AD /* Lottie */,
 				E85A27982956B2BA00CC87F2 /* test0 */,
+				E89839D2296927CF00CA0645 /* DeishWidget */,
+				E89839CD296927CF00CA0645 /* Frameworks */,
 				E85A27972956B2BA00CC87F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				E85A27962956B2BA00CC87F2 /* test0.app */,
+				E89839CC296927CF00CA0645 /* DeishWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +203,14 @@
 				E84B93E529641B5D004F27AD /* HScrollView.swift */,
 				E84B93E7296421ED004F27AD /* TabShiftView.swift */,
 				E84B93EC296433DF004F27AD /* URLImage.swift */,
+				E84B93EE296581FD004F27AD /* AVplayer.swift */,
+				E84B93F329658549004F27AD /* TrackScrollView.swift */,
+				E89839C22968539400CA0645 /* TabTopView.swift */,
+				E89839C42968651C00CA0645 /* TabRootView.swift */,
+				E89839C6296915A800CA0645 /* StatusColorView.swift */,
+				E89839E629699ACE00CA0645 /* PickerView.swift */,
+				E89839E82969A01400CA0645 /* SFSafariViewWrapper.swift */,
+				E89839EA2969A3DA00CA0645 /* AttributeView.swift */,
 			);
 			path = test0;
 			sourceTree = "<group>";
@@ -144,6 +224,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E89839CD296927CF00CA0645 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E89839CE296927CF00CA0645 /* WidgetKit.framework */,
+				E89839D0296927CF00CA0645 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E89839D2296927CF00CA0645 /* DeishWidget */ = {
+			isa = PBXGroup;
+			children = (
+				E89839D3296927CF00CA0645 /* DeishWidgetBundle.swift */,
+				E89839D5296927CF00CA0645 /* DeishWidgetLiveActivity.swift */,
+				E89839D7296927CF00CA0645 /* DeishWidget.swift */,
+				E89839D9296927CF00CA0645 /* DeishWidget.intentdefinition */,
+				E89839DA296927CF00CA0645 /* Assets.xcassets */,
+				E89839DC296927CF00CA0645 /* Info.plist */,
+			);
+			path = DeishWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,20 +256,40 @@
 				E85A27922956B2BA00CC87F2 /* Sources */,
 				E85A27932956B2BA00CC87F2 /* Frameworks */,
 				E85A27942956B2BA00CC87F2 /* Resources */,
+				E89839E2296927CF00CA0645 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E89839E0296927CF00CA0645 /* PBXTargetDependency */,
 			);
 			name = test0;
 			packageProductDependencies = (
 				E83F21B6295DC726000E58F5 /* SwiftUIX */,
 				E84B93CC295FE589004F27AD /* Lottie */,
 				E84B93EA296431C4004F27AD /* SDWebImageSwiftUI */,
+				E84B93F129658536004F27AD /* SwiftUITrackableScrollView */,
 			);
 			productName = test0;
 			productReference = E85A27962956B2BA00CC87F2 /* test0.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E89839CB296927CF00CA0645 /* DeishWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89839E5296927CF00CA0645 /* Build configuration list for PBXNativeTarget "DeishWidgetExtension" */;
+			buildPhases = (
+				E89839C8296927CF00CA0645 /* Sources */,
+				E89839C9296927CF00CA0645 /* Frameworks */,
+				E89839CA296927CF00CA0645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeishWidgetExtension;
+			productName = DeishWidgetExtension;
+			productReference = E89839CC296927CF00CA0645 /* DeishWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -180,6 +302,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					E85A27952956B2BA00CC87F2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E89839CB296927CF00CA0645 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -197,12 +322,14 @@
 				E83F21B5295DC726000E58F5 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
 				E84B93CB295FE589004F27AD /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				E84B93E9296431C4004F27AD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				E84B93F029658536004F27AD /* XCRemoteSwiftPackageReference "trackable-scroll-view" */,
 			);
 			productRefGroup = E85A27972956B2BA00CC87F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E85A27952956B2BA00CC87F2 /* test0 */,
+				E89839CB296927CF00CA0645 /* DeishWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -220,6 +347,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E89839CA296927CF00CA0645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89839DB296927CF00CA0645 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -229,7 +364,10 @@
 			files = (
 				E84B93DA29617102004F27AD /* ColorView.swift in Sources */,
 				E84B93DC2962F45A004F27AD /* DateView.swift in Sources */,
+				E89839C52968651C00CA0645 /* TabRootView.swift in Sources */,
 				E83F21B4295DB85F000E58F5 /* MEGplayview.swift in Sources */,
+				E89839C7296915A800CA0645 /* StatusColorView.swift in Sources */,
+				E84B93F429658549004F27AD /* TrackScrollView.swift in Sources */,
 				E84B93ED296433DF004F27AD /* URLImage.swift in Sources */,
 				E84B93DE2962F7A4004F27AD /* HoverView.swift in Sources */,
 				E83F21B0295DA76D000E58F5 /* alpha.swift in Sources */,
@@ -240,17 +378,42 @@
 				E84B93E4296414BD004F27AD /* RedactView.swift in Sources */,
 				E84B93E8296421ED004F27AD /* TabShiftView.swift in Sources */,
 				E827580C29598D740039FDEE /* Card.swift in Sources */,
+				E89839EB2969A3DA00CA0645 /* AttributeView.swift in Sources */,
+				E89839C32968539400CA0645 /* TabTopView.swift in Sources */,
 				E85A279A2956B2BA00CC87F2 /* test0App.swift in Sources */,
 				E84B93E629641B5D004F27AD /* HScrollView.swift in Sources */,
 				E827580A295985510039FDEE /* Chip.swift in Sources */,
+				E89839E729699ACE00CA0645 /* PickerView.swift in Sources */,
 				E83F21B2295DB84F000E58F5 /* MEGmainview.swift in Sources */,
 				E84B93D6296013DA004F27AD /* LottieView.swift in Sources */,
 				E85A27AA2956DEBE00CC87F2 /* Home.swift in Sources */,
 				E85A27A82956DCBC00CC87F2 /* Book.swift in Sources */,
+				E89839DE296927CF00CA0645 /* DeishWidget.intentdefinition in Sources */,
+				E84B93EF296581FD004F27AD /* AVplayer.swift in Sources */,
+				E89839E92969A01400CA0645 /* SFSafariViewWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89839C8296927CF00CA0645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89839D6296927CF00CA0645 /* DeishWidgetLiveActivity.swift in Sources */,
+				E89839D4296927CF00CA0645 /* DeishWidgetBundle.swift in Sources */,
+				E89839DD296927CF00CA0645 /* DeishWidget.intentdefinition in Sources */,
+				E89839D8296927CF00CA0645 /* DeishWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E89839E0296927CF00CA0645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E89839CB296927CF00CA0645 /* DeishWidgetExtension */;
+			targetProxy = E89839DF296927CF00CA0645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E85A27A22956B2BB00CC87F2 /* Debug */ = {
@@ -370,6 +533,7 @@
 		E85A27A52956B2BB00CC87F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +562,7 @@
 		E85A27A62956B2BB00CC87F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -423,6 +588,58 @@
 			};
 			name = Release;
 		};
+		E89839E3296927CF00CA0645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeishWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeishWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.test0.DeishWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E89839E4296927CF00CA0645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeishWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeishWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.test0.DeishWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -440,6 +657,15 @@
 			buildConfigurations = (
 				E85A27A52956B2BB00CC87F2 /* Debug */,
 				E85A27A62956B2BB00CC87F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E89839E5296927CF00CA0645 /* Build configuration list for PBXNativeTarget "DeishWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89839E3296927CF00CA0645 /* Debug */,
+				E89839E4296927CF00CA0645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -471,6 +697,14 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		E84B93F029658536004F27AD /* XCRemoteSwiftPackageReference "trackable-scroll-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxnatchanon/trackable-scroll-view";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -488,6 +722,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E84B93E9296431C4004F27AD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		E84B93F129658536004F27AD /* SwiftUITrackableScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E84B93F029658536004F27AD /* XCRemoteSwiftPackageReference "trackable-scroll-view" */;
+			productName = SwiftUITrackableScrollView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
