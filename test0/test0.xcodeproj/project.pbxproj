@@ -53,6 +53,15 @@
 		E89839E729699ACE00CA0645 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839E629699ACE00CA0645 /* PickerView.swift */; };
 		E89839E92969A01400CA0645 /* SFSafariViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839E82969A01400CA0645 /* SFSafariViewWrapper.swift */; };
 		E89839EB2969A3DA00CA0645 /* AttributeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839EA2969A3DA00CA0645 /* AttributeView.swift */; };
+		E89839ED296ACD3E00CA0645 /* ListSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839EC296ACD3E00CA0645 /* ListSeparatorView.swift */; };
+		E89839EF296ACEAF00CA0645 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839EE296ACEAF00CA0645 /* MessageView.swift */; };
+		E89839F1296AF1C300CA0645 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839F0296AF1C300CA0645 /* CanvasView.swift */; };
+		E89839F3296AF46100CA0645 /* BackAnimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839F2296AF46100CA0645 /* BackAnimeView.swift */; };
+		E89839F5296D3C6700CA0645 /* InnerShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839F4296D3C6700CA0645 /* InnerShadowView.swift */; };
+		E89839F7296D5DEA00CA0645 /* BlendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839F6296D5DEA00CA0645 /* BlendView.swift */; };
+		E89839F9296D640A00CA0645 /* CircularTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839F8296D640A00CA0645 /* CircularTextView.swift */; };
+		E89839FB296D71BB00CA0645 /* ViewFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839FA296D71BB00CA0645 /* ViewFitView.swift */; };
+		E89839FD296D735C00CA0645 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89839FC296D735C00CA0645 /* StackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +132,15 @@
 		E89839E629699ACE00CA0645 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		E89839E82969A01400CA0645 /* SFSafariViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewWrapper.swift; sourceTree = "<group>"; };
 		E89839EA2969A3DA00CA0645 /* AttributeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeView.swift; sourceTree = "<group>"; };
+		E89839EC296ACD3E00CA0645 /* ListSeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSeparatorView.swift; sourceTree = "<group>"; };
+		E89839EE296ACEAF00CA0645 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		E89839F0296AF1C300CA0645 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		E89839F2296AF46100CA0645 /* BackAnimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackAnimeView.swift; sourceTree = "<group>"; };
+		E89839F4296D3C6700CA0645 /* InnerShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerShadowView.swift; sourceTree = "<group>"; };
+		E89839F6296D5DEA00CA0645 /* BlendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendView.swift; sourceTree = "<group>"; };
+		E89839F8296D640A00CA0645 /* CircularTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTextView.swift; sourceTree = "<group>"; };
+		E89839FA296D71BB00CA0645 /* ViewFitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFitView.swift; sourceTree = "<group>"; };
+		E89839FC296D735C00CA0645 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +229,15 @@
 				E89839E629699ACE00CA0645 /* PickerView.swift */,
 				E89839E82969A01400CA0645 /* SFSafariViewWrapper.swift */,
 				E89839EA2969A3DA00CA0645 /* AttributeView.swift */,
+				E89839EC296ACD3E00CA0645 /* ListSeparatorView.swift */,
+				E89839EE296ACEAF00CA0645 /* MessageView.swift */,
+				E89839F0296AF1C300CA0645 /* CanvasView.swift */,
+				E89839F2296AF46100CA0645 /* BackAnimeView.swift */,
+				E89839F4296D3C6700CA0645 /* InnerShadowView.swift */,
+				E89839F6296D5DEA00CA0645 /* BlendView.swift */,
+				E89839F8296D640A00CA0645 /* CircularTextView.swift */,
+				E89839FA296D71BB00CA0645 /* ViewFitView.swift */,
+				E89839FC296D735C00CA0645 /* StackView.swift */,
 			);
 			path = test0;
 			sourceTree = "<group>";
@@ -364,6 +391,10 @@
 			files = (
 				E84B93DA29617102004F27AD /* ColorView.swift in Sources */,
 				E84B93DC2962F45A004F27AD /* DateView.swift in Sources */,
+				E89839F9296D640A00CA0645 /* CircularTextView.swift in Sources */,
+				E89839F1296AF1C300CA0645 /* CanvasView.swift in Sources */,
+				E89839ED296ACD3E00CA0645 /* ListSeparatorView.swift in Sources */,
+				E89839F7296D5DEA00CA0645 /* BlendView.swift in Sources */,
 				E89839C52968651C00CA0645 /* TabRootView.swift in Sources */,
 				E83F21B4295DB85F000E58F5 /* MEGplayview.swift in Sources */,
 				E89839C7296915A800CA0645 /* StatusColorView.swift in Sources */,
@@ -372,6 +403,7 @@
 				E84B93DE2962F7A4004F27AD /* HoverView.swift in Sources */,
 				E83F21B0295DA76D000E58F5 /* alpha.swift in Sources */,
 				E85A279C2956B2BA00CC87F2 /* ContentView.swift in Sources */,
+				E89839F3296AF46100CA0645 /* BackAnimeView.swift in Sources */,
 				E84B93E029640909004F27AD /* BindView.swift in Sources */,
 				E84B93E229640C8D004F27AD /* FullView.swift in Sources */,
 				E84B93D829601EE6004F27AD /* GridView.swift in Sources */,
@@ -379,8 +411,12 @@
 				E84B93E8296421ED004F27AD /* TabShiftView.swift in Sources */,
 				E827580C29598D740039FDEE /* Card.swift in Sources */,
 				E89839EB2969A3DA00CA0645 /* AttributeView.swift in Sources */,
+				E89839FB296D71BB00CA0645 /* ViewFitView.swift in Sources */,
+				E89839EF296ACEAF00CA0645 /* MessageView.swift in Sources */,
+				E89839F5296D3C6700CA0645 /* InnerShadowView.swift in Sources */,
 				E89839C32968539400CA0645 /* TabTopView.swift in Sources */,
 				E85A279A2956B2BA00CC87F2 /* test0App.swift in Sources */,
+				E89839FD296D735C00CA0645 /* StackView.swift in Sources */,
 				E84B93E629641B5D004F27AD /* HScrollView.swift in Sources */,
 				E827580A295985510039FDEE /* Chip.swift in Sources */,
 				E89839E729699ACE00CA0645 /* PickerView.swift in Sources */,

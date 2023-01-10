@@ -42,6 +42,9 @@ struct ContentView: View {
                 NavigationLink(destination: StatusColorView()) {
                     Label("StatusColor", systemImage: "iphone")
                 }
+                NavigationLink(destination: BackAnimeView()) {
+                    Label("Background Animation", systemImage: "paintpalette")
+                }
             }
             .navigationTitle("Today")
             .navigationBarItems(leading: Image(systemName: "person.crop.circle"))
